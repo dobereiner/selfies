@@ -10,7 +10,7 @@ _DEFAULT_CONSTRAINTS = {
     "O": 2, "O+1": 3, "O-1": 1,
     "N": 3, "N+1": 4, "N-1": 2,
     "C": 4, "C+1": 5, "C-1": 3,
-    "P": 5, "P+1": 6, "P-1": 4,
+    "P": 5, "P+1": 6, "P-1": 7,
     "S": 6, "S+1": 7, "S-1": 5,
     "?": 8
 }
@@ -24,7 +24,7 @@ _PRESET_CONSTRAINTS["octet_rule"].update(
     {"S": 2, "S+1": 3, "S-1": 1, "P": 3, "P+1": 4, "P-1": 2}
 )
 _PRESET_CONSTRAINTS["hypervalent"].update(
-    {"Cl": 7, "Br": 7, "I": 7, "N": 5, "P-1": 7}
+    {"Cl": 7, "Br": 7, "I": 7, "N": 5}
 )
 
 _current_constraints = _PRESET_CONSTRAINTS["default"]
